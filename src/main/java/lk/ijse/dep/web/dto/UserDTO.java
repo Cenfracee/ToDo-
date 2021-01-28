@@ -2,6 +2,7 @@ package lk.ijse.dep.web.dto;
 
 import java.io.Serializable;
 
+@Table(name=)
 public class UserDTO implements Serializable {
     private String username;
     private String password;
